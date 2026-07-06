@@ -65,7 +65,7 @@ namespace DemoProject
 
         public void SaveLog(string message)
         {
-            System.IO.File.AppendAllText("log.txt", message);
+            System.IO.File.AppendAllText( message);
         }
     }
 
